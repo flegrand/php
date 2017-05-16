@@ -1,4 +1,4 @@
-FROM git.demo.cloudcontrolled.net/demo/httpd:2.4
+FROM registry.demo.cloudcontrolled.net/demo/httpd:2.4
 
 RUN yum update -y && yum install -y php-5.4.16 php-mysql-5.4.16
 
