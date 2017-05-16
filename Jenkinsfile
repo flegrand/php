@@ -15,5 +15,5 @@ node {
         }
 
         // Launch dependant jobs
-        //build job: 'app1/1.0', wait: false
+        build job: 'app1/master', wait: false
 }
