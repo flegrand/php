@@ -1,5 +1,5 @@
 def PROJECT='php'
-def GIT_URL='http://jenkins@git.demo.cloudcontrolled.net:8800/demo/'+PROJECT+'.git'
+def GIT_URL='git@github.com:flegrand/'+PROJECT+'.git'
 def REGISTRY_URL='registry.demo.cloudcontrolled.net/demo/'+PROJECT
 
 node {
