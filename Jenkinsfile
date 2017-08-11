@@ -1,4 +1,4 @@
-def PROJECT='centos'
+def PROJECT='php'
 def GIT_URL='git@github.com:flegrand/'+PROJECT+'.git'
 def REGISTRY_ADDRESS='registry.demo.cloudcontrolled.net'
 def REPOSITORY_PATH=REGISTRY_ADDRESS+'/demo/'+PROJECT
